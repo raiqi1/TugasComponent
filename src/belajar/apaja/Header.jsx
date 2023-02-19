@@ -8,13 +8,13 @@ class Header extends React.Component {
       // membuat objek state
       this.state = {
         title: "Belajar Reactjs",
-        subTitle: "Panduan step-by-step Reactjs untuk pemula"
+        subTitle: "Panduan  Reactjs untuk pemula"
       };
     }
   
     changeTitle = () => {
       this.setState({
-        title: "Tutorial Reactjs Petani Kode"
+        title: "Tugas Komponen"
       });
     }
   
